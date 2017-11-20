@@ -1,0 +1,33 @@
+{
+  "name": "react-ssr-simple",
+  "version": "1.0.0",
+  "description": "A simple ssr demo with React-router and React",
+  "scripts": {
+    "start": "webpack --progress --config webpack.client.config.js && webpack --progress --config webpack.server.config.js && node server/dist/server.bundle.js"
+  },
+  "author": "maqinghua <1649143004@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "history": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-router": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "ignore-loader": "^0.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  }
+}
